@@ -27,6 +27,6 @@ public class PrimeFactorsTest {
         expected.add(2);
         expected.add(3);
         expected.add(5);
-        assertThat(primeFactors.returnSequenceOfFactors(30), hasItems(2, 3, 5));
+        assertThat(primeFactors.returnFactors(30), hasItems(2, 3, 5));
     }
 }
